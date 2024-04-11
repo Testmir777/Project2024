@@ -1,0 +1,294 @@
+{
+  "filters": [
+    {
+      "id": "unit",
+      "title": "Unit range",
+      "value": "1",
+      "values": [
+        { "value": "Less than 1K", "key": "1" },
+        { "value": "Between 1K and 10K", "key": "2" },
+        { "value": "Greeter than 10K", "key": "3" }
+      ]
+    }
+  ],
+  "filters2": [
+    {
+      "id": "legal_entity",
+      "title": "Legal Entity",
+      "value": "11",
+      "values": [
+        { "value": "11", "key": "11" },
+        { "value": "12", "key": "12" },
+        { "value": "13", "key": "13" }
+      ]
+    },
+    {
+      "id": "actual",
+      "title": "Actual",
+      "value": "actual",
+      "values": [
+        { "value": "Actual", "key": "actual" },
+        { "value": "etc1", "key": "etc1" },
+        { "value": "etc2", "key": "etc2" }
+      ]
+    },
+    {
+      "id": "currency",
+      "title": "Currency",
+      "value": "lc",
+      "values": [
+        { "value": "lc", "key": "lc" },
+        { "value": "usdt", "key": "usdt" },
+        { "value": "btc", "key": "BTC" }
+      ]
+    }
+  ],
+
+  "headers": [
+    { "title": "Europe", "id": "europe", "parent_id": null, "visible": true },
+    { "title": "Germany", "id": "germany", "parent_id": null, "visible": true },
+    {
+      "title": "Freiburg",
+      "id": "freiburg",
+      "parent_id": "germany",
+      "visible": false
+    },
+    {
+      "title": "Berlin",
+      "id": "berlin",
+      "parent_id": "freiburg",
+      "visible": false
+    },
+    {
+      "title": "Great Britain",
+      "id": "great_britain",
+      "parent_id": null,
+      "visible": true
+    }
+  ],
+
+  "articles": [
+    {
+      "id": "all_articles",
+      "parent_id": null,
+      "title": "All Articles",
+      "categories": [
+        {
+          "id": "europe",
+          "unit": 59.317,
+          "unit_price": 1404,
+          "gross_revenue": 9199.039
+        },
+        {
+          "id": "germany",
+          "unit": 19.317,
+          "unit_price": 468,
+          "gross_revenue": 9043969
+        },
+        {
+          "id": "freiburg",
+          "unit": 70.310,
+          "unit_price": 1404,
+          "gross_revenue": 26578
+        },
+        {
+          "id": "berlin",
+          "unit": 19.26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        },
+        {
+          "id": "great_britain",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        }
+      ]
+    },
+    {
+      "id": "bikes",
+      "parent_id": "all_articles",
+      "title": "Bikes",
+      "categories": [
+        {
+          "id": "europe",
+          "unit": 17128,
+          "unit_price": 537,
+          "gross_revenue": 8760990
+        },
+        {
+          "id": "germany",
+          "unit": 16840,
+          "unit_price": 537,
+          "gross_revenue": 9043969
+        },
+        {
+          "id": "freiburg",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        },
+        {
+          "id": "berlin",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        },
+        {
+          "id": "great_britain",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        }
+      ]
+    },
+    {
+      "id": "mountain_bikes",
+      "parent_id": "bikes",
+      "title": "Mountain Bikes",
+      "categories": [
+        {
+          "id": "europe",
+          "unit": 1253,
+          "unit_price": 324,
+          "gross_revenue": 406066
+        },
+        {
+          "id": "germany",
+          "unit": 1494,
+          "unit_price": 324,
+          "gross_revenue": 484640
+        },
+        {
+          "id": "freiburg",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        },
+        {
+          "id": "berlin",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        },
+        {
+          "id": "great_britain",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        }
+      ]
+    },
+    {
+      "id": "road_bikes",
+      "parent_id": "bikes",
+      "title": "Road Bikes",
+      "categories": [
+        {
+          "id": "europe",
+          "unit": 15876,
+          "unit_price": 554,
+          "gross_revenue": 8792973
+        },
+        {
+          "id": "germany",
+          "unit": 18974,
+          "unit_price": 554,
+          "gross_revenue": 10494413
+        },
+        {
+          "id": "freiburg",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        },
+        {
+          "id": "berlin",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        },
+        {
+          "id": "great_britain",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        }
+      ]
+    },
+    {
+      "id": "touring_bikes",
+      "parent_id": "bikes",
+      "title": "Trouing Bikes",
+      "categories": [
+        {
+          "id": "europe",
+          "unit": 0,
+          "unit_price": 0,
+          "gross_revenue": 0
+        },
+        {
+          "id": "germany",
+          "unit": 0,
+          "unit_price": 0,
+          "gross_revenue": 0
+        },
+        {
+          "id": "freiburg",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        },
+        {
+          "id": "berlin",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        },
+        {
+          "id": "great_britain",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        }
+      ]
+    },
+    {
+      "id": "complementary_products",
+      "parent_id": null,
+      "title": "Complementary Products",
+      "categories": [
+        {
+          "id": "europe",
+          "unit": 2520,
+          "unit_price": 162,
+          "gross_revenue": 430956
+        },
+        {
+          "id": "germany",
+          "unit": 3007,
+          "unit_price": 162,
+          "gross_revenue": 430956
+        },
+        {
+          "id": "freiburg",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        },
+        {
+          "id": "berlin",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        },
+        {
+          "id": "great_britain",
+          "unit": 26578,
+          "unit_price": 26578,
+          "gross_revenue": 26578
+        }
+      ]
+    }
+  ]
+}

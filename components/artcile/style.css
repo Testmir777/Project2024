@@ -1,0 +1,18 @@
+thead th.category {
+  min-width: 9em;
+  background-color: #4c8bf5;
+  color: #fff;
+}
+
+thead th.units {
+  min-width: 9em;
+}
+
+button.expandable {
+  padding-left: 0.4em;
+}
+
+tbody tr.has-style-true:nth-child(odd) {
+  background-color: #4c8bf5;
+  color: #fff;
+}
